@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech for Beginners - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
-
 <body>
-  Tech for beginners
-  <script src="script.js"></script>
+    <header>
+        <div class="container">
+            <h1>Tech for Beginners</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to Tech for Beginners!</h2>
+                <p>Explore our beginner-friendly resources to kickstart your journey in the tech world.</p>
+                <button id="learnMoreButton" onclick="showMoreInfo()">Learn More</button>
+                <div id="moreInfo" style="display:none;">
+                    <h3>More About Tech</h3>
+                    <p>Tech for Beginners offers tutorials, guides, and resources to help you understand the basics of technology. From coding to hardware, we've got you covered!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tech for Beginners</p>
+        </div>
+    </footer>
 </body>
-
 </html>
