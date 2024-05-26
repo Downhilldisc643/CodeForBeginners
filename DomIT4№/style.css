@@ -95,3 +95,22 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+/*____________________________________________*/
+
+.example {
+    margin:  10%;
+    background-color: #e2e2e2;
+    border:solid 3px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.title {
+    font-size: 2.75rem;
+    font-style: bold;
+}
+.info{
+    font-size: 1.6;
+}
