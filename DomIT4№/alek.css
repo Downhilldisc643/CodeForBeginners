@@ -101,13 +101,14 @@ footer {
 
 .example {
     width: 49%;
-    background-color: #e2e2e2;
+    background-color: #919191;
     border:solid 3px;
     border-radius: 3px;
     text-align: center;
     font-size: 1.5rem;
     display: inline-block;
     box-sizing: border-box;
+    vertical-align: top;
 }
 .title {
     font-size: 2.75rem;
@@ -125,4 +126,15 @@ footer {
 
 .example-group{
     width: 100%;
+}
+
+#button{
+    font-size: 2.1rem;
+    margin: 15px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(41, 168, 248);
+    border: solid 3px;
+    color: white;
+
 }
