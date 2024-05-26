@@ -1,4 +1,4 @@
-/* General Styles */
+/* BORIS NIKOLOV*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -93,5 +93,36 @@ footer {
     padding: 10px 0;
     position: relative;
     bottom: 0;
+    width: 100%;
+}
+
+
+/*________________ALEK MILTENOV & HRISTO BELCHINOV_______________________*/
+
+.example {
+    width: 49%;
+    background-color: #e2e2e2;
+    border:solid 3px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.5rem;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.title {
+    font-size: 2.75rem;
+    font-style: bold;
+}
+.info{
+    font-size: 1.6;
+    padding: 5px;
+}
+.code-example img{
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.example-group{
     width: 100%;
 }
