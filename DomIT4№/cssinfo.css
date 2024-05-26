@@ -108,9 +108,98 @@ main p {
     margin: 20px 0;
 }
 
+
 main strong {
     color: #1c1b1b;
 }
 
+.demo-button {
+    background-color: #007BFF; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    text-align: center; 
+    font-size: 16px; 
+    margin: 10px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    
+}
+
+.demo-button:hover {
+    background-color: #0056b3; 
+}
+/*code for css demo page*/
 
 
+main {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+.demo-text, .demo-box {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.color {
+    color: red;
+}
+
+.background {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+}
+
+.border {
+    width: 200px;
+    height: 100px;
+    border: 2px solid green;
+    color: black;
+}
+
+.font-size{
+    font-size: 24px;
+}
+
+.margin {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+.padding {
+    width: 200px;
+    height: 100px;
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.box-shadow {
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    box-shadow: 5px 5px 10px ;
+}
+
+.border-radius {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 15px;
+}
