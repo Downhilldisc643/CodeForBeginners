@@ -6,7 +6,6 @@ body {
     color: #333;
     text-align: center;
     align-items: center;
-    
 }
 
 header {
@@ -46,6 +45,11 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center elements */
     text-align: center;
 }
 
@@ -85,7 +89,6 @@ main {
     background-color: #218838;
 }
 
-
 footer {
     background-color: #007bff;
     color: white;
@@ -96,7 +99,7 @@ footer {
     width: 100%;
 }
 
-/*code for css info page*/
+/* Code for cssinfo page */
 main {
     padding: 20px 0;
     align-items: center;
@@ -113,7 +116,6 @@ main p {
     margin: 20px 0;
 }
 
-
 main strong {
     color: #1c1b1b;
 }
@@ -127,27 +129,23 @@ main strong {
     font-size: 16px; 
     margin: 10px; 
     cursor: pointer; 
-    border-radius: 5px; 
-    
+    border-radius: 5px;
 }
 
 .demo-button:hover {
     background-color: #0056b3; 
 }
-/*code for css demo page*/
 
-
+/* Code for css demo page */
 main {
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centering items horizontally */
 }
-
-
-
-
 
 .demo-text, .demo-box {
     margin-bottom: 20px;
@@ -173,7 +171,7 @@ main {
     color: black;
 }
 
-.font-size{
+.font-size {
     font-size: 24px;
 }
 
@@ -191,7 +189,7 @@ main {
     padding: 20px;
 }
 
-.text-align{
+.text-align {
     text-align: center;
 }
 
@@ -199,7 +197,7 @@ main {
     width: 200px;
     height: 100px;
     background-color: lightcoral;
-    box-shadow: 5px 5px 10px ;
+    box-shadow: 5px 5px 10px;
 }
 
 .border-radius {
