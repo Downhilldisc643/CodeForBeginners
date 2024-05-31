@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
+    text-align: center;
+    align-items: center;
+    
 }
 
 header {
@@ -96,6 +99,8 @@ footer {
 /*code for css info page*/
 main {
     padding: 20px 0;
+    align-items: center;
+    text-align: center;
 }
 
 main h3 {
